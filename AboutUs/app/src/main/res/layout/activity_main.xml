@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/about_us"
+        android:textColor="#000C1E"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="392dp"
+        android:layout_height="588dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="590dp"
+                android:text="@string/lorem_ipsum_dolor_sit_amet_consectetuer_adipiscing_elit_aenean_commodo_ligula_eget_dolor_aenean_massa_cum_sociis_natoque_penatibus_et_magnis_dis_parturient_montes_nascetur_ridiculus_mus_donec_quam_felis_ultricies_nec_pellentesque_eu_pretium_quis_sem_nulla_consequat_massa_quis_enim_donec_pede_justo_fringilla_vel_aliquet_nec_vulputate_eget_arcu_in_enim_justo_rhoncus_ut_imperdiet_a_venenatis_vitae_justo_nullam_dictum_felis_eu_pede_mollis_pretium_integer_tincidunt_cras_dapibus_vivamus_elementum_semper_nisi_aenean_vulputate_eleifend_tellus_aenean_leo_ligula_porttitor_eu_consequat_vitae_eleifend_ac_enim_aliquam_lorem_ante_dapibus_in_viverra_quis_feugiat_a_tellus_phasellus_viverra_nulla_ut_metus_varius_laoreet_quisque_rutrum_aenean_imperdiet_etiam_ultricies_nisi_vel_augue_curabitur_ullamcorper_ultricies_nisi_nam_eget_dui_etiam_rhoncus_maecenas_tempus_tellus_eget_condimentum_rhoncus_sem_quam_semper_libero_sit_amet_adipiscing_sem_neque_sed_ipsum_nam_quam_nunc_blandit_vel_luctus_pulvinar_hendrerit_id_lorem_maecenas_nec_odio_et_ante_tincidunt_tempus_donec_vitae_sapien_ut_libero_venenatis_faucibus_nullam_quis_ante_etiam_sit_amet_orci_eget_eros_faucibus_tincidunt_duis_leo_sed_fringilla_mauris_sit_amet_nibh_donec_sodales_sagittis_magna_sed_consequat_leo_eget_bibendum_sodales_augue_velit_cursus_nunc_lorem_ipsum_dolor_sit_amet_consectetuer_adipiscing_elit_aenean_commodo_ligula_eget_dolor_aenean_massa_cum_sociis_natoque_penatibus_et_magnis_dis_parturient_montes_nascetur_ridiculus_mus_donec_quam_felis_ultricies_nec_pellentesque_eu_pretium_quis_sem_nulla_consequat_massa_quis_enim_donec_pede_justo_fringilla_vel_aliquet_nec_vulputate_eget_arcu_in_enim_justo_rhoncus_ut_imperdiet_a_venenatis_vitae_justo_nullam_dictum_felis_eu_pede_mollis_pretium_integer_tincidunt_cras_dapibus_vivamus_elementum_semper_nisi_aenean_vulputate_eleifend_tellus_aenean_leo_ligula_porttitor_eu_consequat_vitae_eleifend_ac_enim_aliquam_lorem_ante_dapibus_in_viverra_quis_feugiat_a_tellus_phasellus_viverra_nulla_ut_metus_varius_laoreet_quisque_rutrum_aenean_imperdiet_etiam_ultricies_nisi_vel_augue_curabitur_ullamcorper_ultricies_nisi_nam_eget_dui_etiam_rhoncus_maecenas_tempus_tellus_eget_condimentum_rhoncus_sem_quam_semper_libero_sit_amet_adipiscing_sem_neque_sed_ipsum_nam_quam_nunc_blandit_vel_luctus_pulvinar_hendrerit_id_lorem_maecenas_nec_odio_et_ante_tincidunt_tempus_donec_vitae_sapien_ut_libero_venenatis_faucibus_nullam_quis_ante_etiam_sit_amet_orci_eget_eros_faucibus_tincidunt_duis_leo_sed_fringilla_mauris_sit_amet_nibh_donec_sodales_sagittis_magna_sed_consequat_leo_eget_bibendum_sodales_augue_velit_cursus_nunc"
+                android:textColor="#0CA4D3"
+                android:textColorHighlight="#702323"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
